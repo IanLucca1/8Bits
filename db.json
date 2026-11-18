@@ -1,0 +1,151 @@
+{
+    "usuarios": [
+        {
+            "id": "3JPxNXul2-I",
+            "nome": "Ian Lucca",
+            "email": "ianluccacomdoisc@email.com",
+            "senha": "12345queijominas",
+            "num_celular": "31999887722"
+        }
+    ],
+    "jogos": [
+        {
+            "id": "__6OlwJCyRU",
+            "nome": "Grand Theft Auto VI",
+            "generos": ["Ação", "Aventura", "Mundo Aberto"],
+            "classificação": "+18",
+            "modo_de_jogo": ["Singleplayer"],
+            "preco": 600.0
+        },
+        {
+            "id": "TgKocYIEEvI",
+            "nome": "Cult of The Lamb",
+            "generos": ["RPG", "Aventura", "Construção"],
+            "classificação": "+16",
+            "modo_de_jogo": ["Singleplayer", "Cooperative"],
+            "preco": 67.0
+        },
+        {
+        "id": "Jk9lMnOpQrS",
+        "nome": "Hades II",
+        "generos": ["Roguelike", "Ação", "Indie"],
+        "classificação": "+14",
+        "modo_de_jogo": ["Singleplayer"],
+        "preco": 73.99
+    },
+    {
+        "id": "Ab3CdEfGhIj",
+        "nome": "Baldur's Gate 3",
+        "generos": ["RPG", "Estratégia", "Fantasia"],
+        "classificação": "+18",
+        "modo_de_jogo": ["Singleplayer", "Cooperative", "Multiplayer"],
+        "preco": 199.99
+    },
+    {
+        "id": "Xy7ZtUvWxYz",
+        "nome": "Stardew Valley",
+        "generos": ["Simulação", "RPG", "Construção"],
+        "classificação": "Livre",
+        "modo_de_jogo": ["Singleplayer", "Cooperative", "Multiplayer"],
+        "preco": 24.99
+    },
+    {
+        "id": "Mn4OpQrStUv",
+        "nome": "Elden Ring",
+        "generos": ["RPG", "Ação", "Mundo Aberto"],
+        "classificação": "+16",
+        "modo_de_jogo": ["Singleplayer", "Cooperative", "Multiplayer"],
+        "preco": 229.90
+    },
+    {
+        "id": "Gh5IjKlMnOp",
+        "nome": "EA Sports FC 25",
+        "generos": ["Esportes", "Simulação"],
+        "classificação": "Livre",
+        "modo_de_jogo": ["Singleplayer", "Cooperative", "Multiplayer"],
+        "preco": 349.00
+    },
+    {
+        "id": "Qr6StUvWxYz",
+        "nome": "Portal 2",
+        "generos": ["Puzzle", "Plataforma", "Ficção Científica"],
+        "classificação": "+10",
+        "modo_de_jogo": ["Singleplayer", "Cooperative"],
+        "preco": 32.99
+    },
+    {
+        "id": "Ab7CdEfGhIj",
+        "nome": "Resident Evil 4 Remake",
+        "generos": ["Survival Horror", "Ação", "Tiro"],
+        "classificação": "+18",
+        "modo_de_jogo": ["Singleplayer"],
+        "preco": 249.50
+    },
+    {
+        "id": "Ij8KlMnOpQr",
+        "nome": "Minecraft",
+        "generos": ["Sobrevivência", "Construção", "Mundo Aberto"],
+        "classificação": "Livre",
+        "modo_de_jogo": ["Singleplayer", "Cooperative", "Multiplayer"],
+        "preco": 129.00
+    },
+    {
+        "id": "St9UvWxYzAb",
+        "nome": "Hollow Knight",
+        "generos": ["Metroidvania", "Ação", "Indie"],
+        "classificação": "+10",
+        "modo_de_jogo": ["Singleplayer"],
+        "preco": 46.99
+    },
+    {
+        "id": "Cd0EfGhIjKl",
+        "nome": "Cities: Skylines II",
+        "generos": ["Simulação", "Estratégia", "Construção"],
+        "classificação": "Livre",
+        "modo_de_jogo": ["Singleplayer"],
+        "preco": 199.00
+    },
+    {
+        "id": "Op1QrStUvWx",
+        "nome": "It Takes Two",
+        "generos": ["Aventura", "Plataforma", "Puzzle"],
+        "classificação": "+12",
+        "modo_de_jogo": ["Cooperative"],
+        "preco": 199.00
+    },
+    {
+        "id": "Wx2YzAbCdEf",
+        "nome": "Counter-Strike 2",
+        "generos": ["Tiro", "Ação", "Competitivo"],
+        "classificação": "+16",
+        "modo_de_jogo": ["Multiplayer"],
+        "preco": 0.0
+    },
+    {
+        "id": "Kl3MnOpQrSt",
+        "nome": "Cyberpunk 2077",
+        "generos": ["RPG", "Ação", "Mundo Aberto", "Ficção Científica"],
+        "classificação": "+18",
+        "modo_de_jogo": ["Singleplayer"],
+        "preco": 199.99
+    }
+    ],
+    "compras": [
+        {
+            "id_compra": "oQ-WQ5IPKgI",
+            "id_usuario": "3JPxNXul2-I",
+            "id_jogo": "__6OlwJCyRU",
+            "data_compra": "19/11/2026",
+            "situacao": "Comprado",
+            "preco_pago": 490.0
+        },
+        {
+            "id_compra": "oAtjfzwudsI",
+            "id_usuario": "3JPxNXul2-I",
+            "id_jogo": "TgKocYIEEvI",
+            "data_compra": null,
+            "situacao": "Carrinho",
+            "preco_pago": 67.0
+        }
+    ]
+}
