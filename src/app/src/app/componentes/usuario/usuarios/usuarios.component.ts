@@ -1,9 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { UsuarioService } from '../../../servicos/usuario.service';
 
 @Component({
   imports: [],
   selector: 'app-usuarios',
-  styleUrl: './usuarios.css',
-  templateUrl: './usuarios.html',
+  styleUrl: './usuarios.component.css',
+  templateUrl: './usuarios.component.html',
 })
-export class Usuarios {}
+export class UsuariosComponent {
+  private usuarioServico = inject(UsuarioService);
+
+  
+}
