@@ -1,13 +1,14 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { UsuarioLoginComponent } from './componentes/usuario/usuario-login-componente/usuario-login-componente';
+import { UsuarioLoginComponente } from './componentes/usuario/usuario-login-componente/usuario-login-componente';
+import { UsuarioCadastrarComponente } from './componentes/usuario/usuario-cadastrar-componente/usuario-cadastrar-componente';
 
 @Component({
-  imports: [RouterOutlet, UsuarioLoginComponent],
+  imports: [RouterOutlet, UsuarioLoginComponente, UsuarioCadastrarComponente],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
 })
 export class App {
-  protected readonly title = signal('8Bits');
+  title = '8Bits';
 }

@@ -1,46 +1,27 @@
 <section class="login-card" aria-labelledby="login-title">
-      <header class="login-header">
-        <h1 id="login-title">Entrar</h1>
-        <p>Acesse sua conta para continuar</p>
-      </header>
+  <header class="login-header">
+    <h1 id="login-title">Entrar</h1>
+    <p>Acesse sua conta para continuar</p>
+  </header>
 
-      <form class="login-form" action="/login" method="post">
-        <div class="form-group">
-          <label for="email">E-mail</label>
-          <input
-            id="email"
-            name="email"
-            type="email"
-            placeholder="seu@email.com"
-            autocomplete="email"
-            required
-          />
-        </div>
+  <form class="login-form" action="/login" method="post">
+    <div class="form-group">
+      <label for="email">E-mail</label>
+      <input id="email" name="email" type="email" placeholder="seu@email.com" autocomplete="email" required />
+    </div>
 
-        <div class="form-group">
-          <label for="senha">Senha</label>
-          <input
-            id="senha"
-            name="senha"
-            type="password"
-            placeholder="Digite sua senha"
-            autocomplete="current-password"
-            required
-          />
-        </div>
+    <div class="form-group">
+      <label for="senha">Senha</label>
+      <input id="senha" name="senha" type="password" placeholder="Digite sua senha" autocomplete="current-password"
+        required />
+    </div>
 
-        <div class="form-options">
-          <label class="checkbox-label">
-            <input type="checkbox" name="lembrar" />
-            Lembrar de mim
-          </label>
-          <a href="/esqueci-senha" class="forgot-link">Esqueceu a senha?</a>
-        </div>
+    <button type="submit" class="btn-submit">Entrar</button>
+  </form>
 
-        <button type="submit" class="btn-submit">Entrar</button>
-      </form>
-
-      <footer class="login-footer">
-        <p>Não tem uma conta? <a href="/cadastro">Cadastre-se</a></p>
-      </footer>
-    </section>
+  <footer class="login-footer">
+    <a [routerLink]="['/usuario/cadastrar']">
+      <p>Não tem uma conta? Cadastre-se</p>
+    </a>
+  </footer>
+</section>

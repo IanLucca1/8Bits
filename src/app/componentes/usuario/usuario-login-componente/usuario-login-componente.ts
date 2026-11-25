@@ -1,19 +1,12 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
-  imports: [],
+  imports: [RouterLink],
   selector: 'app-usuario-login',
   styleUrl: './usuario-login-componente.css',
   templateUrl: './usuario-login-componente.html',
 })
-export class UsuarioLoginComponent {
-  exibirFormLogin: boolean = true;
+export class UsuarioLoginComponente {
 
-  clicarBtn() {
-    if (this.exibirFormLogin) {
-      this.exibirFormLogin = false;
-    } else {
-      this.exibirFormLogin = true;
-    }
-  }
 }
