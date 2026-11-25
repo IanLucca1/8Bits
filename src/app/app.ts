@@ -1,9 +1,9 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { UsuariosComponent } from './src/app/componentes/usuario/usuarios/usuarios.component';
+import { UsuarioLoginComponent } from './componentes/usuario/usuario-login-componente/usuario-login-componente';
 
 @Component({
-  imports: [RouterOutlet, UsuariosComponent],
+  imports: [RouterOutlet, UsuarioLoginComponent],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
